@@ -113,6 +113,7 @@ $back-color-item: #c8d7de;
     max-width: 100%;
     min-width: 350px;
     min-height: 100vh;
+    box-sizing: border-box;
     background-image: linear-gradient(to right top, #cae1ee, #cbd7f2, #dacaec, #eebbd7, $accent-color);
 }
 
