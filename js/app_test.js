@@ -7,9 +7,9 @@ var classListButtons = '';
 
 function hrefCheck(str) {
 
-var re = /(https?|ftp):\/\/\S+[^\s.,> )\];'\"!?]/g; 
-var template = '<a href="$&" target="_blank">$&</a>'; 
-var out = str.replace(re, template);
+    var re = /(https?|ftp):\/\/\S+[^\s.,> )\];'\"!?]/g;
+    var template = '<a href="$&" target="_blank">$&</a>';
+    var out = str.replace(re, template);
 
     return out;
 }
@@ -87,12 +87,14 @@ function printClassTimetable(classData) {
             </div>`
 
         for (let lesson in obj[classData][day]) {
-            classTimetable += `<div class="day__content-lessons">
+            classTimetable += `<div class="day__content-item-time">${obj[classData][day][lesson].time}</div>
+            <div class="day__content-lessons">
                 <div class="day__content-item day__content-item--number">${lesson}</div>`
+            console.log(obj[classData][day][lesson].time);
             for (let lessoninfo in obj[classData][day][lesson].lesson) {
                 classTimetable += `
                     <div class="day__content-lessons-info">
-                        <div class="day__content-item">${obj[classData][day][lesson].lesson[lessoninfo]}</div>
+                        <div class="day__content-item day__content-item--lesson-name">${obj[classData][day][lesson].lesson[lessoninfo]}</div>
                         <div class="day__content-item">${hrefCheck(obj[classData][day][lesson].teacherName[lessoninfo])}</div>
                         <div class="day__content-item">
                         ${hrefCheck(obj[classData][day][lesson].efir[lessoninfo])} 
