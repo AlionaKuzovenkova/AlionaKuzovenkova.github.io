@@ -276,6 +276,9 @@ $md4: 'max-width: 480px';
         font-size: 50px;
         font-family: 'Pacifico', cursive;
         color: #3b4d57;
+        position: sticky;
+        top: -100px;
+        z-index: 100;
 
         @media screen and ($md3) {
             position: sticky;
