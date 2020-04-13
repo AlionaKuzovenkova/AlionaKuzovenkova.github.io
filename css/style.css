@@ -257,7 +257,7 @@ h6 {
 }
 
 .header__back:hover {
-  background: #f8b0b5;
+  background: #dec328;
 }
 
 .header__back i.left {
@@ -346,7 +346,7 @@ h6 {
 }
 
 .class-ask__butons:hover {
-  background-color: #f8b0b5;
+  background-color: #dec328;
 }
 
 @media screen and (max-device-width: 767px) {
@@ -383,7 +383,7 @@ h6 {
   line-height: 150px;
   font-size: 60px;
   font-family: 'Pacifico', cursive;
-  color: #f8b0b5;
+  color: #dec328;
   width: 90%;
   margin: 0 auto;
   background-color: #343f64;
@@ -558,7 +558,7 @@ h6 {
       -ms-flex: 0 0 5%;
           flex: 0 0 5%;
   max-width: 5%;
-  background-color: #f8b0b5;
+  background-color: #dec328;
   text-align: center;
   color: #343F64;
   font-size: 40px;
@@ -583,7 +583,7 @@ h6 {
 
 .day__content-item--title {
   text-align: center;
-  background-color: #f8b0b5;
+  background-color: #dec328;
   font-size: 20px;
   font-family: 'Pacifico', cursive;
   -webkit-box-flex: 0;
