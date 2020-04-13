@@ -101,8 +101,8 @@ h6 {
   min-height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#cae1ee), color-stop(#cbd7f2), color-stop(#dacaec), color-stop(#eebbd7), to(#f8b0b5));
-  background-image: linear-gradient(to right top, #cae1ee, #cbd7f2, #dacaec, #eebbd7, #f8b0b5);
+  background-image: -webkit-color(#E9DB89);
+  background-image: color(#E9DB89);
 }
 
 .preloader {
