@@ -286,7 +286,7 @@ h6 {
 }
 
 .class-ask__container {
-  font-family: 'Montsetrrat', cursive;
+  font-family: 'Montsetrrat';
   width: 80%;
   margin: 0 auto;
   display: -webkit-box;
@@ -305,7 +305,7 @@ h6 {
   text-align: center;
   line-height: 170px;
   font-size: 60px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   color: #3b4d57;
 }
 
@@ -338,7 +338,7 @@ h6 {
   background-color: #c8d7de;
   font-size: 32px;
   line-height: 55px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   text-align: center;
   cursor: pointer;
   -webkit-transition: 0.2s all ease;
@@ -374,7 +374,7 @@ h6 {
   text-align: center;
   line-height: 270px;
   font-size: 60px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   color: #3b4d57;
 }
 
@@ -382,7 +382,7 @@ h6 {
   text-align: center;
   line-height: 150px;
   font-size: 60px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   color: #dec328;
   width: 90%;
   margin: 0 auto;
@@ -404,7 +404,7 @@ h6 {
   text-align: center;
   line-height: 270px;
   font-size: 50px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   color: #343F64;
   position: -webkit-sticky;
   position: sticky;
@@ -520,7 +520,7 @@ h6 {
   text-align: center;
   font-size: 14px;
   line-height: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   overflow-wrap: break-word;
   word-wrap: break-word;
   -webkit-hyphens: auto;
@@ -563,7 +563,7 @@ h6 {
   color: #343F64;
   font-size: 40px;
   line-height: 46px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
 }
 
 @media screen and (max-device-width: 767px) {
@@ -585,7 +585,7 @@ h6 {
   text-align: center;
   background-color: #dec328;
   font-size: 20px;
-  font-family: 'Montserrat', cursive;
+  font-family: 'Montserrat';
   -webkit-box-flex: 0;
       -ms-flex: 0 1 calc((95% - 10px * 6) / 5);
           flex: 0 1 calc((95% - 10px * 6) / 5);
